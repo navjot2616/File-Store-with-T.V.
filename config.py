@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "25208597"))
-API_HASH = environ.get("API_HASH", "e99c3c5693d6d23a143b6ce760b7a6de")
+API_ID = int(environ.get("API_ID", "29453152"))
+API_HASH = environ.get("API_HASH", "2302adc174dbc954ae5081eda5131166")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://e7.pngegg.com/pngimages/661/988/png-clipart-blog-brand-note-taking-taking-note-text-logo-thumbnail.png')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6541030917').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "notes69bot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '29453152').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "Materialhotbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://gd3251791:xJA12upEIe8ZMi7z@closter1.a9xfgto.mongodb.net/?retryWrites=true&w=majority&appName=closter1")
-DB_NAME = environ.get("DB_NAME", "closter1")
+DB_URI = environ.get("DB_URI", "mongodb+srv://navex26:fOA8u1J8kS7uxvhV@cluster0.wowudnw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "closter0")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -60,8 +60,8 @@ VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "instantlinks.co") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "fb4812435a09dcca63276a47da3c8ac5c23239ef") # shortlink api
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/notes_69/2") # how to open link 
+SHORTLINK_API = environ.get("SHORTLINK_API", "c77b487c933e23e5c3187cd103e0e46f672cad36") # shortlink api
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hotshick/3") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
@@ -70,7 +70,7 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or Fa
 WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
